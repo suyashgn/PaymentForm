@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <form action="">
+    <h1><b>Payment Details</b></h1>
+    <hr>
+    <h2>User Details</h2>
+
+    <p>Name:* <input type="text" name="name" id="name" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+        <p>Male <input type="radio" name="gender" id="gender" required> Female <input type="radio" name="gender" id="gender" required>
+        </p>
+    </fieldset>
+    <p>Adresss:* <textarea name="Address" id="Address" cols="80" rows="5" required></textarea></p>
+    <p>Email:* <input type="email" name="email" id="email" required></input:Email></p>
+    <p>Pincode:* <input type="number" name="pincode" id="pincode" required></p>
+   <h2>Payment Information</h2>
+   <hr>
+   <p>Card Type:*
+    <select name="cardtype" id="cardtype" required>
+    <option value=""> ----Select the options----</option>
+    <option value="VISA"> VISA</option>
+    <option value="Rupay">Rupay</option>
+    <option value="Mastercard">Mastercard</option>
+    </select>
+   </p>
+<p>Card NO.:* <input type="number" name="cardnum" id="cardnum" required></p>
+<p> Exp. Date :* <input type="date" name="exp" id="exp" required></p>
+<p>CVV:* <input type="password" name="cvv" id="cvv" required></p>
+<input type="submit" value="Pay here">
+
+
+</form>
+</body>
+</html>
